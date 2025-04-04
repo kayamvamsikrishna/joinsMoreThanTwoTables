@@ -159,7 +159,7 @@ def updationMethods(request):
     cc=C.deptno
     #WO=Emp.objects.all().filter(ename='VAMSIKRISHN').update_or_create(deptno=1001,defaults={'eno':2007,'sal':0,'comm':0,'deptno':cc})#While we are dealing with parent column(foreigh key columb)  that data should be definetly present in the parent column data and we need to provide parent instance
     #in the above primary key is mandatory,parent column data and it's instance is mandatory,....
-    #sal and comm i need specify values because in models.py file i'm not created default vakues 'null=True blank=True' for both sal and comm columns 
+    #sal and comm i need specify values because in models.py file i'm not created default values 'null=True blank=True' for both sal and comm columns 
     WO=Emp.objects.all()
 
     '''
