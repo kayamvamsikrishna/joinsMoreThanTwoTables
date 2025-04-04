@@ -19,5 +19,7 @@ from django.urls import path
 from app1.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('joinMoreThanTwoTables/',joinMoreThanTwoTables,name='joinMoreThanTwoTables')
+    path('joinMoreThanTwoTables/',joinMoreThanTwoTables,name='joinMoreThanTwoTables'),
+    path('updationMethods/',updationMethods,name='updationMethods'),
+    path('prefetchR/',prefetchR,name='prefetchR'),
 ]
